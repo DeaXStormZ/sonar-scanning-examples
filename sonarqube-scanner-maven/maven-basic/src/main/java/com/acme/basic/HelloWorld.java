@@ -2,8 +2,8 @@ package com.acme.basic;
 
 public class HelloWorld {
 
-  void sayHello() {
-    System.out.println("Hello World!");
+  String sayHello() {
+    return "Hello World!";
   }
 
   void notCovered() {
